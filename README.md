@@ -1,2 +1,2 @@
-HTML + css
+HTML + CSS
 author: Ovip Lokos
