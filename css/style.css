@@ -1,0 +1,40 @@
+body {
+    color: #000;
+}
+
+.header-title {
+    color: #005FA3;
+}
+
+.header-contact-link {
+    text-decoration: none;
+}
+
+.header-conact-text {
+    color: #000;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+
+}
+
+.desc {
+    background-color: #191E22;
+    background-image: url(../img/banner.jpg);
+}
+
+.desc-title,
+.desc-link {
+    color: #FFF;
+}
+
+.desc-link {
+    text-decoration: none;
+}
+
+.service {
+    background: #EBEBEB;
+}
