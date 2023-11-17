@@ -38,3 +38,36 @@ body {
 .service {
     background: #EBEBEB;
 }
+
+.section-title {
+    color: #BDBDBD;
+}
+
+.service-item-link {
+    background-image: url(../img/building.png);
+    text-decoration: none;
+}
+
+.section-subtitle {
+    color: #333;
+}
+
+.service-item-title {
+    color:#FFF;
+}
+
+.review-button {
+    color: #FFF;
+}
+
+.review-item-text {
+    color:#000;
+}
+
+.review-item-author {
+    color:#000;
+}
+
+.review-item-position {
+    color:#EBEBEB;
+}
