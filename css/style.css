@@ -88,6 +88,11 @@ body {
     font-weight: 900;
 }
 
+.adv-text {
+    font-size: 36px;
+    font-weight: 700;
+}
+
 .review-button {
     color: #FFF;
     font-weight: 400;
@@ -108,5 +113,12 @@ body {
 }
 
 .footer {
-    background-image: url(../img/banner2.jpg)
+    background-image: url(../img/banner2.jpg);
+    }
+
+.footer-reach {
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69.39px;
 }
