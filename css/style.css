@@ -99,9 +99,17 @@ body {
     font-weight: 700;
 }
 
-.review-button {
+.button {
     color: #FFF;
     font-weight: 400;
+    font-family: inherit;
+    line-height: inherit;
+    background-color:#005FA3;
+    border: none;
+}
+
+.review-item {
+    background-color:#EBEBEB;
 }
 
 .review-item-text {
@@ -114,21 +122,57 @@ body {
 }
 
 .review-item-position {
-    color:#EBEBEB;
+    color:#4F4F4F;
     font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
 }
 
 .about-item {
     background: #EBEBEB;
 }
 
+.about-item-num {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 66px;
+}
+
+.about-item-header {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.about-item-link {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color:#005FA3;
+}
+
+.advatages {
+    background:#EBEBEB;
+}
+
+.advatages-desc {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.52px;
+}
+
 .footer {
+    background-color:#161616;
+    color: #FFF;
     background-image: url(../img/banner2.jpg);
     }
 
-.footer-reach {
-    font-family: 'Merriweather';
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 69.39px;
+.white {
+    color:#FFF;
+}
+
+.footer-contact-text {
+    font-size: 21px;
+    line-height: 19px;
 }
