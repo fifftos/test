@@ -162,11 +162,11 @@ body {
     line-height: 47.52px;
 }
 
-.footer {
+.footer-bkg {
     background-color:#161616;
     color: #FFF;
     background-image: url(../img/banner2.jpg);
-    }
+}
 
 .white {
     color:#FFF;
@@ -175,4 +175,15 @@ body {
 .footer-contact-text {
     font-size: 21px;
     line-height: 19px;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.foot-link {
+    color: inherit;
+    text-decoration: none;
 }
