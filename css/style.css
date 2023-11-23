@@ -73,6 +73,12 @@ body {
 .service-item-link {
     background-image: url(../img/building.png);
     text-decoration: none;
+    background-size: cover;
+    width: 350;
+    min-height: 360;
+    display: block;
+    padding: 45;
+    box-sizing: border-box;
 }
 
 .section-subtitle {
