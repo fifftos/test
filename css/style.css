@@ -7,6 +7,16 @@ body {
     line-height: 25px;
 }
 
+.container {
+    width: 1115px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 23px 0 31px;
+
+}
+
 .header-title {
     color: #005FA3;
     font-family: 'Merriweather';
@@ -38,8 +48,13 @@ body {
 }
 
 .desc {
+    padding: 170px 0;
     background-color: #191E22;
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner2.jpg);
+}
+
+.desc-title {
+    margin: 0 0 131px;
 }
 
 .desc-title,
@@ -171,7 +186,7 @@ body {
 .footer-bkg {
     background-color:#161616;
     color: #FFF;
-    background-image: url(../img/banner2.jpg);
+    background-image: url(../img/banner.jpg);
 }
 
 .white {
