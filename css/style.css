@@ -16,6 +16,14 @@ body {
     display: none;
 }
 
+.flex {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
 .header {
     padding: 23px 0 31px;
 
@@ -78,7 +86,9 @@ body {
     background: #005FA3;
     width: 333px;
     min-height: 84px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .service {
@@ -101,8 +111,10 @@ body {
     background-size: cover;
     width: 350px;
     min-height: 360px;
-    display: block;
     padding: 45px;
+    display: flex;
+    justify-content:space-between;
+    
 }
 
 .section-subtitle {
@@ -111,6 +123,11 @@ body {
     font-size: 48px;
     font-weight: 900;
     line-height: 69px;
+}
+
+.sublitle-clients {
+    display: flex;
+    justify-content: space-between;
 }
 
 .section-subtitle-blue {
@@ -198,6 +215,12 @@ body {
 
 .about {
     padding: 140px 0;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .about-subtitle {
