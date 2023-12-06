@@ -29,6 +29,10 @@ body {
 
 }
 
+.wrp-padding {
+    padding: 0 0 0 15px;
+}
+
 .header-title {
     color: #005FA3;
     font-family: 'Merriweather';
@@ -98,7 +102,7 @@ body {
 
 .section-title {
     color: #BDBDBD;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 900;
     line-height: 33px;
     margin: 0 0 40px;
@@ -136,6 +140,12 @@ body {
 
 .service-subtitle {
     margin: 0 0 102px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .service-item-title {
@@ -221,6 +231,10 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.about-desc {
+    width: 445px;
 }
 
 .about-subtitle {
