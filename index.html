@@ -13,9 +13,12 @@
 </head>
 <body>
     <header class="header container">
-        <img class="header-img" src="./img/logo.png" alt="logo">
-        <p class="header-title">LetterOne</p>
-        <ul>
+        <div class="header-container">
+            <img class="header-img" src="./img/logo.png" alt="logo">
+            <p class="header-title">LetterOne</p>
+        </div>
+            <div>
+            <ul class="flex header-conact-container">
             <li>
                 <a class="header-contact-link" href="tel:81112223344">
                     <img src="img/phone.svg" alt="phone">
@@ -38,7 +41,7 @@
             </li>
         </ul>
         <nav>
-            <ul>
+            <ul class="flex">
                 <li><a class="header-nav-link" href="*">Главная</a></li>
                 <li><a class="header-nav-link" href="*">услуги</a></li>
                 <li><a class="header-nav-link" href="*">О компании</a></li>
@@ -46,6 +49,7 @@
                 <li><a class="header-nav-link" href="*">контакты</a></li>
             </ul>                                                   
         </nav>
+    </div>
     </header>
     <main>
         <section class="desc">
@@ -117,7 +121,7 @@
         <div class="container">
             <h2 class="section-title">Наши клиенты</h2>
             <p class="section-subtitle clients-subtitle">С нами работают</p>
-            <ul class="sublitle-clients">
+            <ul>
                 <li><a href="#"><img src="./img/Rectangle 2.png" alt=""></a></li>
                 <li><a href="#"><img src="./img/Rectangle 2.png" alt=""></a></li>
                 <li><a href="#"><img src="./img/Rectangle 2.png" alt=""></a></li>
@@ -131,62 +135,54 @@
     </section>
     <section class="review container">
         <div class="review-title-wrp">
+            <div>
         <h2 class="section-title">Отзывы</h2>
         <p class="section-subtitle">Ваши благодарности</p>
         </div>
         <button class="button review-button" type="button">Оставить отзыв</button>
-    
+        </div>
         <ul>
             <li class="review-item">
                 <p class="review-item-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium veniam incidunt soluta perspiciatis velit magnam in fuga et aperiam inventore ab placeat quisquam, dolorem odit asperiores deleniti amet excepturi!</p>
+            <div class="flex">
                 <img src="img/bich.png" alt="telka">
+                <div class="review-item-author-wrp">
                 <p class="review-item-author">Имя Фамилия</p>
                 <p class="review-item-position">Директор</p>
-            </li>
-            <li class="review-item display-none">
-                <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis sit eligendi labore fugiat eum. Fugiat, architecto dicta labore dolore suscipit nihil saepe repellat quas, amet doloremque minima deserunt, id adipisci.</blockquote>
-                <img src="img/bich.png" alt="telka">
-                <p class="review-item-author">Имя Фамилия</p>
-                <p class="review-item-position">Директор</p>
-            </li>
-            <li class="review-item display-none">
-                <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis sit eligendi labore fugiat eum. Fugiat, architecto dicta labore dolore suscipit nihil saepe repellat quas, amet doloremque minima deserunt, id adipisci.</blockquote>
-                <img src="img/bich.png" alt="telka">
-                <p class="review-item-author">Имя Фамилия</p>
-                <p class="review-item-position">Директор</p>
-            </li>
-            <li class="review-item display-none">
-                <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis sit eligendi labore fugiat eum. Fugiat, architecto dicta labore dolore suscipit nihil saepe repellat quas, amet doloremque minima deserunt, id adipisci.</blockquote>
-                <img src="img/bich.png" alt="telka">
-                <p class="review-item-author">Имя Фамилия</p>
-                <p class="review-item-position">Директор</p>
-            </li>
+            </div>
+        </div>
+        </li>
+    </ul>
+    <div class="review-controls">
+        <ul class="flex">
+            <li class="review-item-slider-control"><button type="button" class="review-slider-button"></button></li>
+            <li class="review-item-slider-control"><button type="button" class="review-slider-button"></button></li>
+            <li class="review-item-slider-control"><button type="button" class="review-slider-button-active"></button></li>>
+            <li class="review-item-slider-control"><button type="button" class="review-slider-button"></button></li>
         </ul>
-        <ul>
-            <li><button type="button" class="review-slider-button"></button></li>
-            <li><button type="button" class="review-slider-button"></button></li>
-            <li><button type="button" class="review-slider-button review-slider-button-active"></button></li>
-            <li><button type="button" class="review-slider-button"></button></li>
-        </ul>
-        <button class="review-slider-arrow" type="button" disabled><img src="img/dis-button.png" alt="dis-button"></button>
-        <button class="review-slider-arrow review-slider-button-active" type="button"><img src="img/button.png" alt="button"></button>
+        <div class="flex">
+            <button class="review-slider-arrow" type="button" disabled><img src="img/dis-button.png" alt="dis-button"></button>
+            <button class="review-slider-arrow review-slider-button-active" type="button"><img src="img/button.png" alt="button"></button>
+        </div>
+    </div>
     </section>
     <section class="advatages">
         <div class="container">
             <h2 class="section-title">Наши приемущества</h2>
             <p class="section-subtitle advatages-subtitle">Мы предлагаем</p>
             <ul>
-                <li class="advatages-desc"><img src="img/quality.png" alt="quality"></li>
-                <p class="adv-text">Качество</p>
-                <li class="advatages-desc"><img src="img/man-runs.png" alt="man-runs"></li>
-                <p class="adv-text">Оперативность</p>
-                <li class="advatages-desc"><img src="img/man.png" alt="man"></li>
-                <p class="adv-text">Экспертность</p>
+                <li><img src="img/quality.png" alt="quality"></li>
+                <p class="advatages-desc">Качество</p>
+                <li><img src="img/man-runs.png" alt="man-runs"></li>
+                <p class="advatages-desc">Оперативность</p>
+                <li><img src="img/man.png" alt="man"></li>
+                <p class="advatages-desc">Экспертность</p>
             </ul>
     </div>
     </section>
     </main>
-    <footer class="footer-bkg">
+    <footer class="footer">
+        <div class="footer-bkg">
         <div class="footer-wrp">
             <div class="container">
                 <div>
