@@ -63,22 +63,22 @@
                 <h2 class="section-title">Наши услуги</h2>
                 <p class="section-subtitle service-subtitle">Мы специализируемся</p>
             <ul class="service-list">
-                <li><a class="service-item-link" href="*">
-                        <h3 class="service-item-title">О - обслуживание</h3>
+                <li class="service-item"><a class="service-item-link" href="*">
+                    <h3 class="service-item-title">О - обслуживание</h3>
                     </a></li>
-                <li><a class="service-item-link" href="*">
-                        <h3 class="service-item-title">О - обслуживание</h3>
+                <li class="service-item"><a class="service-item-link" href="*">
+                    <h3 class="service-item-title">О - обслуживание</h3>
                     </a></li>
-                <li><a class="service-item-link" href="*">
+                <li class="service-item"><a class="service-item-link" href="*">
                     <h3 class="service-item-title">О - обслуживание</h3>
                 </a></li>
-                <li><a class="service-item-link" href="*">
+                <li class="service-item"><a class="service-item-link" href="*">
                     <h3 class="service-item-title">О - обслуживание</h3>
                 </a></li>
-                <li><a class="service-item-link" href="*">
+                <li class="service-item"><a class="service-item-link" href="*">
                     <h3 class="service-item-title">О - обслуживание</h3>
                 </a></li>
-                <li><a class="service-item-link" href="*">
+                <li class="service-item"><a class="service-item-link" href="*">
                     <h3 class="service-item-title">О - обслуживание</h3>
                 </a></li>
             </ul>
@@ -90,7 +90,7 @@
                 <h2 class="section-title">О нас</h2>
                 <p class="section-subtitle about-subtitle">Компания <span class="section-subtitle-blue">LetterOne</span></p>
                 <p class="about-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum nemo similique ipsa? Mollitia sapiente dolores dolore harum quas laboriosam fugit minus! Nobis voluptatibus eos aut eius quaerat impedit recusandae?</p>
-        </div>
+            </div>
         <div class="half-width wrp-padding">
             <ul class="about-list">
                 <li class="about-item">
@@ -121,7 +121,7 @@
         <div class="container">
             <h2 class="section-title">Наши клиенты</h2>
             <p class="section-subtitle clients-subtitle">С нами работают</p>
-            <ul>
+            <ul class="clients-list">
                 <li><a href="#"><img src="./img/Rectangle 2.png" alt=""></a></li>
                 <li><a href="#"><img src="./img/Rectangle 2.png" alt=""></a></li>
                 <li><a href="#"><img src="./img/Rectangle 2.png" alt=""></a></li>
@@ -157,7 +157,7 @@
         <ul class="flex">
             <li class="review-item-slider-control"><button type="button" class="review-slider-button"></button></li>
             <li class="review-item-slider-control"><button type="button" class="review-slider-button"></button></li>
-            <li class="review-item-slider-control"><button type="button" class="review-slider-button-active"></button></li>>
+            <li class="review-item-slider-control"><button type="button" class="review-slider-button review-slider-button-active"></button></li>>
             <li class="review-item-slider-control"><button type="button" class="review-slider-button"></button></li>
         </ul>
         <div class="flex">
@@ -170,46 +170,68 @@
         <div class="container">
             <h2 class="section-title">Наши приемущества</h2>
             <p class="section-subtitle advatages-subtitle">Мы предлагаем</p>
-            <ul>
-                <li><img src="img/quality.png" alt="quality"></li>
+            <ul class="advatages-list">
+                <li class="advatages-item">
+                <img class="advatages-img" src="img/quality.png" alt="quality" width="132" height="126">
                 <p class="advatages-desc">Качество</p>
-                <li><img src="img/man-runs.png" alt="man-runs"></li>
+            </li>
+                <li class="advatages-item">
+                <img class="advatages-img" src="img/man-runs.png" alt="man-runs" width="132" height="126">
                 <p class="advatages-desc">Оперативность</p>
-                <li><img src="img/man.png" alt="man"></li>
+            </li>
+                <li class="advatages-item">
+                <img class="advatages-img" src="img/man.png" alt="man" width="132" height="126">
                 <p class="advatages-desc">Экспертность</p>
+            </li>
             </ul>
     </div>
     </section>
     </main>
     <footer class="footer">
         <div class="footer-bkg">
-        <div class="footer-wrp">
             <div class="container">
-                <div>
+                <div class="footer-wrp flex">
+                    <div class="half-width">
                         <h2 class="footer-subtitle section-subtitle white">Связаться с нами</h2>
                         <p class="footer-questions">У вас остались вопросы? Напишите нам - ответим в ближайшее время!</p>
-                    <ul>
+                    <ul class="flex">
                         <li>
-                                <a class="foot-link" href="tel:81112223344">
+                                <a class="footer-link" href="tel:81112223344">
                                     <img src="img/phone.svg" alt="phone">
                                     <span class="footer-contact-text">+7(111) 222-33-44</span>
                         </a>
                     </li>
                 <li>
-                    <a class="foot-link" href="mailto:order@buhone.ru">
+                    <a class="footer-link" href="mailto:order@buhone.ru">
                     <img src="img/envelop.svg" alt="envelop">
                     <span class="footer-contact-text">order@buhone.ru</span>
                 </a>
             </li>
             </ul>
         </div>
-        <div>
-                    <button class="button">Отправить сообщение</button>
+            <div class="half-width wrp-padding">
+                <form action="#">
+                    <div class="form-contact-wrp">
+                        <label>
+                            <span class="input-label">Имя</span>
+                            <input type="text" placeholder="Иван">
+                        </label>
+                        <label>
+                            <span class="input-label">Телефон</span>
+                            <input type="tel" placeholder="+7-999-999-99-99">
+                        </label>
+                </div>
+                    <label>
+                        <span class="input-label">Сообщение</span>
+                        <textarea placeholder="Ваше сообщение"></textarea>
+                    </label>
+                    <button class="button" type="submit">Отправить сообщение</button>
+                </form>
                 </div>
             </div>
         </div>
     </div>
-        <div class="container foot-about">
+        <div class="container footer-about">
             <p class="footer-text">2019 (с) Все права защищены. LetterOne.ру</p>
             <p class="footer-text">Разработано: LetterOne</p>
         </div>
